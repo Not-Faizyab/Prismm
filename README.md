@@ -1,21 +1,12 @@
-Prismm – Next-Gen Project Management for Video Editors 🎬🚀
+# React + Vite
 
-Prismm is a web-based project management app designed specifically for freelance video editors and creative professionals.
-It helps you track your clients, projects, deadlines, revisions, and income in one clean dashboard.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-✨ Features (MVP)
-Two themes: 🌌 Cosmic (dark) & 🌅 Aurora (light)
-Track completed, pending, and due today tasks
-Total revenue tracking for clients/projects
-Productivity insights (completion rate, tasks overview)
-Smart filtering (active, completed, priority)
-Search across tasks/projects
-🛠️ Tech Stack
-React ⚛️
-TailwindCSS 🎨
-Responsive, clean, and SaaS-inspired UI
-🚀 Vision
+Currently, two official plugins are available:
 
-Prismm is built to simplify the chaos of editing work — no more juggling notes, DMs, and scattered files. Just one sleek dashboard tailored for editors.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🔗 Contributions, feedback, and feature suggestions are welcome!
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
